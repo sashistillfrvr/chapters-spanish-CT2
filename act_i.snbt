@@ -572,7 +572,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Illager Arc"
+			subtitle: "Arco del Invocador"
 			tasks: [{
 				entity: "minecraft:illusioner"
 				icon: {
@@ -586,7 +586,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Illager Advisor II"
+			title: "El aprendíz del Invocador"
 			x: 9.0d
 			y: 1.5d
 		}
