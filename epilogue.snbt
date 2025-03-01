@@ -1,0 +1,1736 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epilogue"
+	group: "1E3C4B5FFAE48A39"
+	icon: "bosses_of_mass_destruction:blazing_eye"
+	id: "5A7D6B87115D3B91"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"Por fin... las notas de tus diversas aventuras te han traído a &e«El otro lado»&r."
+				""
+				"Desde tus humildes comienzos en el &eMundo normal&r, el peligroso viaje a través del &eInfierno&r y &eBajo la oscuridad&r, los encuentros en el &eEverbright y Everdawn&r, y los encuentros cercanos en &eEl fin&r, ahora estás en lo que crees que es la fuente del mal."
+				""
+				"¿Cómo lo llamó el investigador del pueblo? ¿Una «pelea» contra los &b«Titanes Antiguos»&r? Según el investigador, debería bastar con eliminar a las cuatro criaturas elementales de &e«El otro lado»&r."
+				""
+				"¡Prepárate para embarcarte en tu búsqueda final! No hay forma de que vuelvan después de matarlos, ¿verdad?"
+			]
+			icon: "minecraft:paper"
+			id: "749D138B0222E744"
+			rewards: [{
+				id: "6222458583FAAFB2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Página perdida del Final."
+			tasks: [{
+				id: "67B1853D30A8EE31"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Los males primarios"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"El &eLich de la noche&r reside en la &eTorre del Lich&r que se encuentra en las &eTierras profundas&r. Para encontrar la estructura, puedes fabricar &eEstrellas del alma&r. Si usas la &eEstrella del alma&r, se consumirá para indicarte la dirección de la &eTorre del Lich&r más cercana."
+				""
+				"&cEl Lich de la Noche aparece a un nivel mínimo de 90 y en Rareza Mítica.&r"
+				""
+				"El Lich de la noche tiene:"
+				"&b+50% de daño físico a frío.&r"
+				"&b+50% de probabilidad de congelación.&r"
+				"&b+25% Probabilidad de fragmentación&r"
+				"&b+50% de resistencia elemental.&r"
+				"&a15% de probabilidad de dejar caer la runa Sid&r"
+			]
+			id: "07EBFDA1B8808DAF"
+			rewards: [
+				{
+					id: "21701E1566499449"
+					item: "mmorpg:uber/frag_uber1_tier1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "591C192B05D51076"
+					title: "Ascendant (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Frío"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "0A39027CB9F70D32"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Torre Helada"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"El &eGuantelete del Infierno&r se encuentra en las &eArenas del Guantelete&r, en el &ebioma Cavernas&r Florecientes."
+				""
+				"&cEl Guantelete del Infierno aparece a un nivel mínimo de 90 y en Rareza Mítica.&r"
+				""
+				"El Guantelete del Infierno tiene:"
+				"&b+50% de daño físico a daño de fuego.&r"
+				"&b+75% de probabilidad de quemadura.&r"
+				"&b+40% de esquiva.&r"
+				"&b+75% de Resistencia al Fuego.&r"
+				"&a15% de probabilidad de dejar caer la runa Sid.&r"
+			]
+			id: "005E75571665043C"
+			rewards: [
+				{
+					id: "100B3BFFAADCD105"
+					item: "mmorpg:uber/frag_uber1_tier1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "656169856B5F549C"
+					title: "Ascendant (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.255d
+			subtitle: "Fuego"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "67B908871A5282C2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Las profundidades ardientes"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Puedes encontrar el &eFlor del vacío&r en los &eBosques resonantes&r del &eOtro lado&r. Puedes usar &eLirios del vacío&r para indicar la dirección a estas &eFlores del vacío&r."
+				""
+				"&cLa Flor del Vacío aparece a un nivel mínimo de 90 y en Rareza Mítica.&r"
+				""
+				"La Flor del Vacío tiene:"
+				"&b+100% de daño físico al caos.&r"
+				"&b+33% Probabilidad de envenenamiento&r"
+				"&b+1% de salud regenerada por segundo.&r"
+				"&b+75% de Resistencia al Caos.&r"
+				"&c-25% de Resistencia al Fuego.&r"
+				"&a15% de probabilidad de dejar caer la runa Sid&r"
+			]
+			id: "56B2B51011037E61"
+			rewards: [
+				{
+					id: "15F97D81BF787C79"
+					item: "mmorpg:uber/frag_uber1_tier1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "78E77C83F56373C6"
+					title: "Ascendant (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Caos"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "507D5A8FDD10ECE3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Los viñedos en expansión"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"El &eObsidilith&r reside en la &eArena Obsidilith &r que se encuentra en las &eColumnas nubladas&r."
+				""
+				"&cEl Obsidilith aparece a un nivel mínimo de 90 y en Rareza Mítica.&r"
+				""
+				"El Obsidilith tiene:"
+				"&b+100% Daño físico a daño de rayo&r"
+				"&b+50% de probabilidad de electrificar.&r"
+				"&b+25% Probabilidad de descarga eléctrica&r"
+				"&b+100% de armadura&r"
+				"&b+50% de resistencia a Electricidad&r"
+				"&a15% Probabilidad de soltar runa Sid&r"
+			]
+			id: "6B2C722AC00A07C0"
+			rewards: [
+				{
+					id: "631C758E74857E09"
+					item: "mmorpg:uber/frag_uber1_tier1"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "4253CD136D9F9A5E"
+					title: "Ascendant (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Electricidad"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "32DF2007C57A60F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La fortaleza galvánica"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: ["¿Alguien ha vaciado una estructura antes de que llegaras? Puedes usar un &eNéctar de azufre&r en cualquiera de las estructuras de &bEstructuras de Titanes Antiguos&r para restablecerlas."]
+			id: "71F71326D81053D9"
+			rewards: [{
+				id: "1E5C69E4282912F2"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			subtitle: "Restableciendo las estructuras de jefes"
+			tasks: [{
+				id: "6BA69F80620210D3"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			title: "Están de vuelta!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Mientras recorres un mapa tras otro, oyes los ecos de otro &eLich&r... Uno que se encuentra en el &eBosque del Crepúsculo&r. Aparece un nuevo portal que atraviesas para entrar en una nueva dimensión."
+				""
+				"Para entrar en el Bosque del Crepúsculo, tienes que crear un charco de agua de 2x2 en una zona de hierba, rodeado de plantas y/u hojas en &eEl Otro Lado&r. Puede que necesites llevar hierba contigo. A continuación, lanza un diamante y observa cómo se forma el portal."
+				""
+				"&l&cLos mobs del Bosque del Crepúsculo aparecen a partir del nivel 90!&r&r"
+			]
+			id: "77E6AE329E337151"
+			rewards: [
+				{
+					count: 3
+					id: "0D4BA9A55B97BA9E"
+					item: "mmorpg:currency/affix_common_reroll"
+					type: "item"
+				}
+				{
+					id: "1488B29B5798BA1F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "51F52DF9B052A4B9"
+				title: "Visita el Bosque del Crepúsculo"
+				type: "dimension"
+			}]
+			title: "Más allá de lo desconocido"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"Enclavados en pequeños claros por todo el &eBosque del Crepúsculo&r, los &eLaberintos de Setos&r son una curiosa visión para los nuevos exploradores de la dimensión. Al igual que las piedras en ruinas, los monumentos y otros puntos de referencia que salpican el paisaje, se ha especulado sin cesar sobre el motivo de su construcción, pero hasta la fecha no se han encontrado respuestas."
+				""
+				"Los bloques de setos forman las paredes de un laberinto típico, con un follaje denso y espinoso que disuade a los aventureros de abrirse paso a hachazos por los sinuosos pasillos. Las luciérnagas y las linternas son habituales, ya que ayudan a iluminar el laberinto en contraste con la escasa luz de otros lugares. A veces se han visto copas de árboles en un laberinto, formando una especie de altos postes en las paredes de los setos."
+				""
+				"La otra característica principal de los laberintos de setos son las pequeñas «habitaciones» abiertas dentro del laberinto. Se ha descubierto que siempre contienen un engendrador mágico, así como 1-2 cofres y más Calabazas de Halloween. Suelen generar &elobos hostiles, arañas de enjambre o arañas de seto&r, pero, a diferencia de otros generadores, la luz brillante no impide su funcionamiento."
+			]
+			id: "54B478D596CE17D6"
+			rewards: [
+				{
+					count: 2
+					id: "2D561080DD23BA36"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "3C2A412FD724071E"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:hedge"
+				id: "01A930C680639445"
+				structure: "twilightforest:hedge_maze"
+				title: "Find a Hedge Maze"
+				type: "structure"
+			}]
+			title: "Laberintos Naturales"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["Los &eLobos agresivos&r son extraños Lobos que sólo pueden encontrarse en un &eLaberinto de setos&r. La leyenda dice que estos lobos odian a los humanos porque siempre les roban sus tesoros. Por desgracia, estos lobos no se pueden domesticar."]
+			id: "2BE20402219A9B78"
+			rewards: [
+				{
+					count: 3
+					id: "5B3AB3D09BD7747A"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D1C81F8C6BAB0D7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				icon: "doggytalents:dog_plushie_toy_item"
+				id: "4C5ACBBF6C6B901D"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Agresión desenfrenada"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["&eLas Arañas del seto&r son casi idénticas a las arañas normales de Overworld, aparte de su distintivo color verde. La única diferencia entre esta especie y las normales es que son capaces de aparecer en el &eLaberinto de setos&r en lugares brillantemente iluminados. La leyenda dice que estas arañas son lo bastante valientes como para proteger su tesoro de los exploradores."]
+			id: "039BE2259D553B13"
+			rewards: [
+				{
+					count: 3
+					id: "22076FAC6370473E"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D037E40BE697582"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				icon: "blue_skies:spider_webbing"
+				id: "793117DC4193D9C8"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Asesina: 10x Araña del Seto"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"Las Colinas Huecas, que se elevan sobre el terreno llano del &eBosque del Crepúsculo&r, las &eColinas Huecas&r son llamativos montículos de tierra que ocultan una enorme cueva hueca repleta de estalactitas y estalagmitas, algunas de las cuales están formadas por minerales preciosos. Los exploradores han encontrado estas grandes colinas en forma de cúpula en tres tamaños distintos, lo suficientemente grandes como para ser detectadas y marcadas en un &eMapa Mágico&r, con un icono apropiado que indica su tamaño. Se ha descubierto que algunas colinas tienen otras cuevas y barrancos que las atraviesan, por lo que aquellos aventureros que hagan túneles bajo la tierra pueden encontrarse dentro de una de estas colinas en sus exploraciones."
+				""
+				"Las pequeñas colinas miden aproximadamente 30 metros de diámetro y suelen contener minerales básicos como carbón y hierro, y ocasionalmente piedra roja y piedra incandescente. Los exploradores pueden esperar encontrar un par de cofres del tesoro que contienen herramientas y objetos comunes como comida, flechas, escaleras y antorchas, pero en raras ocasiones, se puede encontrar un valioso Imán de Mineral junto con un Diamante y &eSteeleaf&r. &eEnjambre de arañas, Redcap Goblins y Kobolds&r residen en estas colinas, con otras criaturas comunes al Mundo normal también."
+			]
+			id: "75103126CFA64857"
+			rewards: [
+				{
+					count: 2
+					id: "1C323A27F2B1118B"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					id: "111D5F6783D074B7"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				icon: "twilightforest:hollow_twilight_oak_log"
+				id: "54592C0A736AE877"
+				structure: "twilightforest:small_hollow_hill"
+				title: "Find a Small Hollow Hill"
+				type: "structure"
+			}]
+			title: "Un pequeño montículo"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: [
+				"El &ePatio de Naga&r es una gran estructura amurallada construida con diversas formas de piedra y Nagastone. Dentro del Patio Naga hay varios setos de hojas de roble crepuscular, pilares de andesita pulida y nagastone grabada, y otros elementos decorativos. En el centro de la estructura hay un Generador de criaturas que contiene al &eNaga&r."
+				""
+				"Si matas al Naga, desbloquearás la siguiente estructura de la progresión, la &e«Torre del Lich»&r, lo que eliminará la protección de la estructura."
+				""
+				"&cEl Naga aparece en Rareza Mítica.&r"
+				""
+				"El Naga tiene:"
+				"&b+100% de daño físico al caos.&r"
+				"&b+40% de probabilidad de envenenamiento.&r"
+				"&b+30% de penetración del caos.&r"
+				"&b+50% de Resistencia al Frío.&r"
+				"&b+50% de Resistencia al Caos.&r"
+			]
+			id: "09AFF8CC33BD244B"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "23AD45244978A5A3"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "37776D6144DBDA7D"
+					item: "mmorpg:potions/full_reset_talent"
+					type: "item"
+				}
+				{
+					id: "529776CB2E015F07"
+					item: "mmorpg:potions/full_reset_spell"
+					type: "item"
+				}
+				{
+					id: "1F4F10A8BE8F9410"
+					item: "mmorpg:potions/full_reset_passive"
+					type: "item"
+				}
+				{
+					id: "59E013EF3A97101E"
+					item: "mmorpg:potions/full_reset_ascendancy"
+					type: "item"
+				}
+				{
+					id: "3CEAB295D78E83AA"
+					item: "mmorpg:potions/full_reset_stat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D51EB762212D5EC"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "70F6F4A87FD9A5E6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Snakular"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"La &eTorre del Lich&r consta de una única aguja central, de la que sobresalen desordenadamente muchas torres y salas más pequeñas, que conectan directamente con la siguiente torre o a través de un puente."
+				""
+				"Numerosas criaturas hostiles aparecen en la Torre del Lich normalmente o a través de generadores. El surtido habitual de mobs vanilla aparecen de forma natural. El &eTomo de la muerte&r también aparece en la Torre del Lich, y es la única estructura para encontrar este mob."
+				""
+				"Para desbloquear la Torre del Lich, hay que derrotar al Naga."
+				""
+				"La Torre del Lich también es la clave para desbloquear otros tres biomas y estructuras:"
+				""
+				"- Disipar el enjambre de mosquitos que rodea el &ePantano del Crepúsculo&r, lo que permite explorar el &eLaberinto&r."
+				"- Disipar la oscuridad que cubre el &eBosque Oscuro&r, lo que permite explorar la &eFortaleza del Caballero Goblin&r."
+				"- Disipar la ventisca que cubre el &eBosque Nevado&r y entras en la &eCueva del Yeti&r."
+			]
+			id: "05E813C595DBC7AB"
+			rewards: [
+				{
+					count: 5
+					id: "550F848D0AFF9FDF"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AC5E8E78128C2BA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "41B2B655D8ABB2AF"
+				structure: "twilightforest:lich_tower"
+				title: "Find a Lich Tower"
+				type: "structure"
+			}]
+			title: "La Torre del Poder"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"Los &eTomos de la muerte&r son libros peligrosos que flotan en las escaleras y bibliotecas de la Torre del Lich. Disparan un proyectil que ralentiza a la criatura a la que golpean durante un breve periodo de tiempo. En ocasiones, los Tomos de la Muerte pierden páginas al ser golpeados."
+				""
+				"Los tomos de la muerte también pueden soltar un &eEnfoque del Mapa Mágico&r al morir."
+				""
+				"El Tomo de la Muerte tiene:"
+				"&b+50% de daño físico al rayo.&r"
+				"&b+50% de daño físico al caos.&r"
+			]
+			id: "7CEF2BA760AB0B2E"
+			rewards: [
+				{
+					count: 2
+					id: "14CD63892C5E3F41"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E5F010430704713"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CB516DD49306C90"
+					item: "mmorpg:currency/enchant_reroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "792CBFC517AE25A6"
+					item: "mmorpg:currency/unique_reroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30AE5F37C62C7EB7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				icon: "mca:book_death"
+				id: "154CA20889C9EDB5"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Librería encantada"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"El &eLich del Crepúsculo&r, también llamado simplemente el &eLich&r, reside en lo alto de una &eTorre de Lich&r. Aparece como un esqueleto humanoide alto que lleva una capa púrpura y una gran corona dorada. A su alrededor hay un muro de escudos para protegerse de cualquier daño, pero tal vez puedan romperse."
+				""
+				"Los aventureros informan de que los proyectiles pueden desviarse con un golpe oportuno. Cada vez que el jugador desvíe los proyectiles del Lich, éste eliminará uno de sus escudos."
+				""
+				"&cEl Lich aparece en rareza mítica.&r"
+				""
+				"El Lich tiene:"
+				"&b+100% de daño físico a daño de rayo.&r"
+				"&b+50% de probabilidad de electrificar.&r"
+				"&b+25% de probabilidad de descarga.&r"
+				"&b+25% de Penetración de Rayo&r"
+				"&b+75% Resistencia elemental&r"
+				"&b+50% de Resistencia al Caos&r"
+			]
+			id: "1F3C2718AE550D5C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "78E598DDB8CEEE03"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "15E955610563E40C"
+					item: "mmorpg:uber/frag_uber1_tier2"
+					type: "item"
+				}
+				{
+					id: "41295C50FCBC7A5D"
+					item: "mmorpg:gems/topaz/6"
+					type: "item"
+				}
+				{
+					id: "44C98A1EC1B45829"
+					item: "simplehats:toy_story_alien"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "43512F6DDA8F3AEB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La mente maestra"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"Las &eColinas Huecas&r son una excelente fuente de minerales que extraer y tesoros que saquear, siendo los más valiosos los que se encuentran en las colinas más grandes. Los tesoros suelen estar custodiados por criaturas peligrosas que abundan en la oscuridad y que pueden significar la perdición de un explorador incauto. Por desgracia, también parece que cuanto más grande es la colina, más criaturas viven en ella. Los exploradores deben recordar las reglas básicas de la espeleología, y nunca hacer un túnel directamente hacia el interior de una Colina Hueca; en su lugar, hay que acercarse por un lateral y llevar muchas fuentes de luz para iluminar el interior, ya que hay varios engendros a la vuelta de cada esquina."
+				""
+				"Las colinas medianas tienen unos 60 metros de diámetro y más de 25 metros de altura en el centro. El interior se vuelve más espacioso, pero esto también ha atraído a más criaturas y más mortíferas. Oro y Lapis pueden ser encontrados aquí, así como Diamantes y Esmeraldas pueden ser vistos, aunque raramente. A medida que aumenta el valor de los minerales, también lo hacen los tesoros: en una colina mediana suelen encontrarse hasta 6 cofres que contienen &eLingotes de Ironwood y Polvo de transformación&r, junto con artefactos únicos como una Reina gusano de la luna y el Abanico de plumas de pavo real. &eEscarabajos de fuego y Zapadores de gorra roja&r viven en colinas medianas, además de los que se ven en colinas pequeñas."
+			]
+			id: "2820ABD72802B6F2"
+			rewards: [
+				{
+					count: 4
+					id: "4B00DACD9470CF87"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A53AC07D15CF95F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				icon: "twilightforest:hollow_time_log"
+				id: "583B2BF97EA1E832"
+				structure: "twilightforest:medium_hollow_hill"
+				type: "structure"
+			}]
+			title: "Un montículo mediano"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: ["El &eLaberinto&r es un hito importante relacionado con la Progresión. Aparece como una pequeña colina en el &ePantano del Crepúsculo&r, pero se abre a la entrada de una estructura subterránea de extensos pasadizos laberínticos. En los niveles más profundos del Laberinto, una sala vallada contiene un Generador de criaturas con el &eMinotauro Champivaca&r."]
+			id: "1C58F38B9890D6BA"
+			rewards: [
+				{
+					count: 2
+					id: "68678804DB1B0A4A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "6B43C3B5A633A10F"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:maze_map"
+				id: "3E00882F2A14F4C6"
+				structure: "twilightforest:labyrinth"
+				title: "Find a Labyrinth"
+				type: "structure"
+			}]
+			title: "Un laberinto mágico"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"El &eMinotauro Champivaca&r es un minijefe que acecha en su prisión, en el fondo de un &eLaberinto&r. El &eMinotauro Champivaca&r es un extraño híbrido entre una Champivaca y un Minotauro."
+				""
+				"El Minotauro Champivaca tiene:"
+				"&b+10 Penetración de Armadura (Escamas)&r"
+				"&b+50% Precisión&r"
+				"&b+30% de Resistencia Física&r"
+				"&b+20% de regeneración de salud&r"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "78EB450B57F9B7E7"
+			rewards: [
+				{
+					count: 3
+					id: "19BA04335CBBAEF0"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					id: "4D369FC4FA80DC2F"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "02C4B1A5FC2F4BF9"
+					item: "mmorpg:currency/level_up_orb"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: "twilightforest:minoshroom_trophy"
+				id: "44E73F3DEC8B8112"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mooooooooo"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"Los &e«Slimes del Laberinto»&r son una variante del «Slime del mundo normal» del &e«Bosque del Crepúsculo»&r. Estos Slimes son de color gris y aparecen en &eLaberintos&r."
+				""
+				"El Slime del laberinto tiene:"
+				"&b+25% de Armadura&r"
+				"&b+25% de Resistencia Física&r"
+				"&b+50% de Resistencia al Rayo&r"
+			]
+			id: "26D545606AA14974"
+			rewards: [
+				{
+					id: "3C9B5B2C5838A9E2"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D7B27AF6930907B"
+					item: "mmorpg:currency/orb_of_quality"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				icon: "twilightforest:mazestone"
+				id: "5F809DB4B920DBD2"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Slime...?"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: ["Semejante a una gran &e«colina hueca»&r, la &e«Guarida de la Hidra»&r surge de la llanura pantanosa y sirve de guarida natural a la Hidra multicéfala que habita en el corazón del &e«Pantano del Fuego»&r. La &eHydra&r parece haber ahuecado la propia colina, dándole cobijo y obligando a cualquiera que quiera desafiarla a acercarse a ella de frente. La zona frente a la Hidra carece también de vegetación o cobertura, por lo que no hay donde esconderse."]
+			id: "1A2A1F3575A8159B"
+			rewards: [
+				{
+					count: 2
+					id: "4E1C822C955889FC"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1829DFB6A35F0F6B"
+					item: "mmorpg:gems/topaz/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:hydra_chop"
+				id: "10F427A4198C5961"
+				structure: "twilightforest:hydra_lair"
+				title: "Find a Hydra Lair"
+				type: "structure"
+			}]
+			title: "La guarida"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2A1F3575A8159B"]
+			description: [
+				"La &eHydra&r se puede encontrar en una única &eGuarida de la Hydra&r abierta en un &ePantano de fuego&r. La Hydra es una criatura enorme, con dos patas muy grandes que sostienen un cuerpo ancho y escamoso. Múltiples cuellos serpentiformes terminan en cabezas que tienen un parecido pasajero con la del Dragón del End. Toda la criatura está cubierta de escamas azul verdoso y azul oscuro."
+				""
+				"&cLa Hydra aparece en Rareza Mítica.&r"
+				""
+				"La Hydra tiene:"
+				"&b+100% de daño físico a daño de fuego.&r"
+				"&b+60% de probabilidad de quemadura.&r"
+				"&b+40% de penetración de fuego.&r"
+				"&b+25% de reducción de daño&r"
+				"&b+35% de Resistencia al Rayo&r"
+			]
+			id: "18C4B8D73A50CFAC"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "43D1F2E8681A6250"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "06CDDFAA60B2313C"
+					item: "mmorpg:uber/frag_uber1_tier2"
+					type: "item"
+				}
+				{
+					id: "442655A6C145A711"
+					item: "mmorpg:gems/emerald/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "382C4B8CF2BAE86C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Bestia de varias cabezas"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: [
+				"&eLa Carne a la Stroganoff&r puede ser muy saciante y potente, lo que permite a cualquier aventurero tener la energía necesaria para explorar incluso los biomas más calurosos después de comerse un solo cuenco."
+				""
+				"Al consumir &eLa Carne a la Stroganoff&r, el jugador tiene acceso al &ePantano de fuego&r y al &eHydra&r."
+			]
+			id: "7187E491F0DB8671"
+			rewards: [
+				{
+					count: 2
+					id: "5C46D448EFC87623"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E328E95911DAEA1"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					id: "58D2C2F14A786F55"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					id: "7275AB1F3B39A5DF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				id: "3D81F5F7AA614C5D"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			title: "Una comida abundante"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"El &e«Bosque Oscuro»&r es un bioma de vegetación densa con un espeso dosel que bloquea casi toda la luz del suelo del bosque. Los árboles de madera oscura crecen con mayor frecuencia en este bioma, con algo de vegetación más pequeña como hierba alta y flores que cubren la hierba. Ocasionalmente, los Mushglooms crecen en la zona, proporcionando una débil fuente de luz."
+				""
+				"A pesar de la oscuridad, monstruos como Zombies y Esqueletos no aparecen en la superficie. Sin embargo, otros monstruos como &eLobos de la Niebla&r y &eArañas rey&r sí aparecerán, haciendo que atravesar el Bosque Oscuro sea más peligroso."
+			]
+			id: "7E14A7756FB4B78B"
+			rewards: [
+				{
+					id: "7B40532F3F039222"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "666D99C820AFA04B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "53505C138F5F5996"
+					item: "mmorpg:gems/tourmaline/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				icon: "twilightforest:canopy_sapling"
+				id: "3B00F80F4C4025E2"
+				title: "Visit a Dark Forest"
+				type: "biome"
+			}]
+			title: "Cegados por la oscuridad"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"Los &eLobos de la niebla&r son monstruos misteriosos que aparecen en el &eBosque Oscuro&r. Estos monstruos esperan a su víctima en la oscuridad del bosque. Se vuelven transparentes en la oscuridad y sólo toman forma sólida en zonas de luz brillante. Si atacan a un jugador en la oscuridad, sus ataques pueden cegarlo, pero esta aflicción no parece ocurrir cerca de una fuente de luz."
+				""
+				"El Lobo de la Niebla tiene:"
+				"&b+50% Daño Físico al Caos&r"
+				"&b+30% Nivel de Esquiva&r"
+				"&b+30% Nivel de Esquiva de Hechizos&r"
+				"&b+25% de Resistencia Elemental&r"
+			]
+			id: "700E3C92E9C27B04"
+			rewards: [
+				{
+					count: 2
+					id: "63E33F53FF3193C1"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58F31A094952CF4B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				icon: "outer_end:ender_roots"
+				id: "493B46FB942D8A16"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Oculto en la niebla"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"Las &eArañas rey&r sólo pueden encontrarse en el &eBosque oscuro&r y la primera señal de ellas suelen ser sus ojos rojos brillando en la oscuridad. Tienen el doble de tamaño, velocidad y resistencia que las arañas normales, y se las puede encontrar con un &eEsqueleto Druida&r en el lomo, lo que las convierte en un enemigo formidable."
+				""
+				"La Araña Rey tiene:"
+				"&b+100% Daño Físico al Caos&r"
+				"&b+30% de Penetración del Caos.&r"
+			]
+			id: "67CCD11ABBB75DF3"
+			rewards: [
+				{
+					id: "2404378E98FDF0DD"
+					item: "mmorpg:gems/emerald/5"
+					type: "item"
+				}
+				{
+					id: "499095977A582D7B"
+					item: "mmorpg:gems/garnet/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "547FDEA4C9F24547"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				icon: "handcrafted:spider_trophy"
+				id: "315594F7D6D8B953"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Arañas que provocan miedo"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: ["Antiguas y desamparadas, las &eFortalezas de los Caballeros Goblin&r descansan entre el dosel antinaturalmente denso del &eBosque Oscuro&r. Pueden ser difíciles de localizar en la oscuridad, ya que apenas quedan restos en la superficie, aparte de muros rotos y ladrillos agrietados. Sin embargo, bajo la superficie hay un vasto complejo de habitaciones, pasillos y tumbas."]
+			id: "11768894E8B672B5"
+			rewards: [
+				{
+					count: 2
+					id: "5F891BF39E8515BC"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A8290CD9BB7C782"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4972BFCA3275C5DA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "twilightforest:stronghold_shield"
+				id: "54FDAF28D194B2C1"
+				structure: "twilightforest:knight_stronghold"
+				title: "Find a Goblin Knight Stronhold"
+				type: "structure"
+			}]
+			title: "Goblin Usurpador"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11768894E8B672B5"]
+			description: [
+				"Los &eCaballeros Fantasma&r residen en una sala con capas de ladrillos en la &eFortaleza de los Caballeros Goblin&r. Aparecen como piezas fantasmales de Armadura Fantasma, y parecen tener un aspecto espeluznante y fantasmal cuando atacan."
+				""
+				"Al derrotar a los &eCaballeros Fantasma&r avanzarás en la Fase del Bosque Oscuro, eliminando así las protecciones sobre el &eCentro del Bosque Oscuro&r, permitiendo ahora el acceso a la &eUr-Ghast&r y su &eTorre Oscura&r."
+				""
+				"El Caballero Fantasma tiene:"
+				"&b+100% Daño Físico a Rayo&r"
+				"&b+25% de Impacto Crítico&r"
+				"&b+50% Nivel de Esquiva&r"
+				"&b+50% Nivel de Esquiva de Hechizos&r"
+			]
+			id: "42922690F74AC7FE"
+			rewards: [
+				{
+					count: 3
+					id: "5D5B35924A7177B3"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E60295E386C4F31"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "501346F0CBF0B449"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "4AFB5F32A72830AB"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Caballeros malditos"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42922690F74AC7FE"]
+			description: [
+				"Elevándose ominosamente sobre el &e«Bosque Oscuro»&r se encuentran las imponentes &e«Torres Oscuras»&r. Tan altas que parecen perforar el mismo cielo, estas inmensas construcciones contienen todo tipo de salas únicas, obstáculos, tesoros y monstruos que explorar y contra los que luchar en el épico viaje hasta la cima. Suelen encontrarse en el corazón mismo de un Bosque Oscuro, donde el espeso y asfixiante follaje adquiere un extraño tono otoñal, quizá debido a la siniestra influencia de la Torre."
+				""
+				"&eLas criaturas carminitas suelen infligir daño de fuego.&r"
+			]
+			id: "0E85C58F1DA0564C"
+			rewards: [
+				{
+					count: 2
+					id: "411163FE27556CEA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0DA6290C80A32C41"
+					item: "mmorpg:gems/ruby/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+				id: "03F883F2D01DF89A"
+				structure: "twilightforest:dark_tower"
+				title: "Find a Dark Tower"
+				type: "structure"
+			}]
+			title: "Espirales oscuras"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E85C58F1DA0564C"]
+			description: [
+				"El &eUr-Ghast&r puede encontrarse volando en lo alto de la gigantesca &eTorre Oscura&r. Aparece como una criatura sobrenatural de grandes tentáculos. Está cubierta de lo que los aventureros temen que sea sangre, o podría ser Carminita. Esta criatura se parece a los Guardias Ghast de Carminita, debido a su habilidad para acechar a los jugadores, así como a los Ghasts exclusivos de Nether, pero es mucho más grande y peligrosa."
+				""
+				"&cEl Ur-Ghast aparece en rareza mítica.&r"
+				""
+				"El Ur-Ghast tiene:"
+				"&b+100% de daño físico a daño de fuego.&r"
+				"&b+25% de probabilidad de quemadura.&r"
+				"&b+100% de daño de quemadura&r"
+				"&b+5% Resistencia máxima al fuego&r"
+				"&b+100% de Resistencia al Fuego&r"
+			]
+			id: "5BB55F41502BE69C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "26A037B5BB43D730"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "70D77D8F4DC32B5F"
+					item: "mmorpg:uber/frag_uber1_tier2"
+					type: "item"
+				}
+				{
+					id: "4AC6E089CE9FA0A2"
+					item: "mmorpg:gems/ruby/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "099F7B52CC819671"
+				type: "kill"
+				value: 1L
+			}]
+			title: "¿Sangre o carminita?"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"El &eBosque Nevado&r es un bioma antinaturalmente frío que contrasta con gran parte del resto de la dimensión Bosque Crepuscular. Los exploradores han observado muchas similitudes con el bioma de la Taiga nevada del Mundo normal, con la nieve cubriendo el suelo entre grandes grupos de abetos que crecen en lugar de las copas de los árboles habituales, con algunos creciendo igual de grandes. La razón de que exista un clima tan gélido en una dimensión predominantemente templada y húmeda es un misterio, aunque algunos sospechan que el gran &eGlaciar&r que anida entre los abetos puede tener algo que ver."
+				""
+				"Hay que tener cuidado al caminar por estas zonas, ya que los &eLobos de Invierno&r vagan por la tierra junto con los peligrosos &eYetis&r. Estas criaturas deben abordarse con precaución. Hay que acercarse a estas criaturas con cautela, sobre todo al adentrarse en las &eCuevas del Yeti&r, ya que se pueden encontrar muchas docenas en estas cuevas heladas. Los &eYetis Alpha&r, que reclaman el dominio sobre los suyos, no verán con buenos ojos la intrusión de curiosos o insensatos."
+			]
+			id: "15B1E394B4FBB981"
+			rewards: [
+				{
+					id: "0B1583B14CE6405B"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CAE6DB8E7EDB259"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "00866B8B5706A607"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				icon: "blue_skies:snowbloom"
+				id: "7ED21F382B9E41B3"
+				title: "Visit a Snowy Forest"
+				type: "biome"
+			}]
+			title: "En la nieve"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"Los &eLobos de Invierno&r son grandes caninos de color blanco azulado que viven en el &eBosque Nevado&r. Estos monstruos se parecen a sus amigos caninos del &e«Bosque Oscuro»&r, pero con un pelaje blanco. Persiguen y atacan a los jugadores en su territorio, atacando tanto con su mordisco como con un ataque de aliento helado que aplica una ralentización."
+				""
+				"El Lobo Invernal tiene:"
+				"&b+100% Daño Físico al Frío&r"
+				"&b+30% de Penetración de Frío&r"
+				"&b+30% de Resistencia al frío&r"
+			]
+			id: "38BFA9B6AC5CBD12"
+			rewards: [
+				{
+					id: "477E6F483D6AABCD"
+					item: "mmorpg:currency/sharpening_stone_3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C66DC9E98CDE941"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				icon: "born_in_chaos_v1:fangofthe_hound_leader"
+				id: "4BF835E79D59F65E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Un Awooo escalofriante"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"Los &eYeti&r son criaturas grandes, blancas y con forma de bloque que viven en el &eBosque Nevado&r o dentro de la &eCueva del Yeti&r. Son de naturaleza semipasiva y sólo se interesan por los jugadores que se mueven a unos 4 bloques de ellos. No atacan directamente. En su lugar, recogerán a su objetivo y lo lanzarán en una dirección aleatoria. Los aventureros no recibirán daño directo de un Yeti, pero el daño de la caída les dolerá. Si son atacados, se vuelven agresivos y persiguen a su objetivo."
+				""
+				"El Yeti tiene:"
+				"&b+0,5% de Salud Regenerada por Segundo&r"
+				"&b+30% de resistencia al frío.&r"
+			]
+			id: "10B572A9358F338B"
+			rewards: [
+				{
+					count: 5
+					id: "021419E747103F83"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7661B1B922262EAF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "20201B9A398A123F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Bosque del Crepúsculo"
+			tasks: [{
+				entity: "twilightforest:yeti"
+				icon: {
+					Count: 1
+					id: "twilightforest:yeti_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:protection"
+							lvl: 2s
+						}]
+					}
+				}
+				id: "0C5B0388632D3E64"
+				type: "kill"
+				value: 10L
+			}]
+			title: "El Yeti"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B93763BFB5F5E0D"]
+			description: [
+				"El temible &eYeti Alpha&r es mucho más grande que el resto de Yetis de su manada. Tiene seis grandes cuernos azules y se muestra constantemente agresivo con los jugadores."
+				""
+				"Al derrotar al &eYeti Alpha&r se eliminarán las protecciones sobre el &eGlaciar&r, permitiendo ahora el acceso a la &eReina de la Nieve&r y su &ePalacio de Aurora&r."
+				""
+				"El Yeti Alfa tiene:"
+				"&b+50% de daño físico a frío.&r"
+				"&b+8 Penetración de armadura (escamas)&r"
+				"&b+30% de penetración de frío.&r"
+				"&b+25% de resistencia física&r"
+				"&b+50% de resistencia al frío&r"
+			]
+			id: "44B4EC276B4CD776"
+			rewards: [
+				{
+					count: 3
+					id: "2BA208A9FDAC9C96"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "79ACA445473BD88D"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					id: "26B9B73CD18DC085"
+					item: "mmorpg:gems/amethyst/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "5120ECE8C0DA8ADA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "El Yeti Alpha"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44B4EC276B4CD776"]
+			description: [
+				"De pie sobre sobre los desolados &eGlaciares&r, el &ePalacio de la Aurora&r es una vista llamativa y hermosa para los aventureros del Bosque del Crepúsculo, con sus muros en constante movimiento en una variedad de colores que llegan hasta el cielo. Por desgracia, la belleza es sólo superficial, ya que hay peligros en su interior que no dudarán en defender su hogar mágico."
+				""
+				"Los aventureros que derroten al &eYeti Alpha&r descubrirán que basta con &etocar su pelaje&r para transferir una parte del poder mágico del pelaje a ellos mismos, disipando los vientos y dejando el Palacio abierto a la exploración."
+			]
+			icon: "twilightforest:blue_castle_door"
+			id: "2FDCA05F4CD502C8"
+			rewards: [
+				{
+					count: 2
+					id: "591FB17C2BAA0199"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "2F9DB93942234A2C"
+					item: "mmorpg:gems/sapphire/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [
+				{
+					icon: "twilightforest:aurora_pillar"
+					id: "3E8D88BC87345DAC"
+					structure: "twilightforest:aurora_palace"
+					title: "Find an Aurora Palace"
+					type: "structure"
+				}
+				{
+					id: "3F7D90DB38D24943"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			title: "Un palacio de belleza"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FDCA05F4CD502C8"]
+			description: [
+				"La &eReina de la Nieve&r se encuentra en una sala con incrustaciones de hielo cerca de la cima del &ePalacio de la Aurora&r. Es quizá la criatura más parecida a un ser humano que se ha encontrado en el Bosque Crepuscular: se parece a una mujer, pero con grandes ojos violetas y piel azul pálido. Inmediatamente se muestra hostil hacia cualquier intruso que se encuentre en sus inmediaciones, lanzando rápidamente uno de los tres patrones de ataque principales."
+				""
+				"La Reina de las Nieves vuela sobre un trineo en forma de platillo de bloques de hielo mágicos. El trineo sirve como poderosa defensa, ya que desplaza a la Reina hacia arriba y la pone fuera del alcance de los ataques a corta distancia, a la vez que &ebloquea los ataques a distancia realizados desde abajo&r. Para atacar con éxito a la Reina de las Nieves, debes anticiparte a sus movimientos, &eatacando sólo cuando se acerque lo suficiente como para que puedas esquivar el trineo de hielo&r."
+				""
+				"&cLa Reina de las Nieves aparece en rareza mítica.&r"
+				""
+				"La Reina de las Nieves tiene:"
+				"&b+100% de daño físico al frío.&r"
+				"&b+80% de probabilidad de congelación.&r"
+				"&b+25% de probabilidad de fragmentación&r"
+				"&b+30% de Penetración de frío&r"
+				"&b+30% de reducción de daño&r"
+			]
+			id: "1E2D94E70E2A1134"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "7EF3ECDA9B97A8F7"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "1DC1DDFC5481AC98"
+					item: "mmorpg:uber/frag_uber1_tier2"
+					type: "item"
+				}
+				{
+					id: "13F0A36E7B35C9D3"
+					item: "mmorpg:gems/sapphire/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Epílogo"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "2F747DA65DA3B282"
+				type: "kill"
+				value: 1L
+			}]
+			title: "La Reina del Hielo"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"Al matar al &eNaga&r, aparecerá un &eMonumento de Reaparición&r. Puedes activar el bloque para respawn el jefe mediante la colocación de &eBloques de Ironwood&r en un círculo alrededor del monumento así:"
+				""
+				"{image:cte2:textures/Naga-Respawn.png width:100 height:100 align:center}"
+				""
+				"Luego, en el propio monumento, coloca un &eCabeza de esqueleto wither&r mirando al &eNorte&r. &c¡DEBE mirar al Norte!&r"
+			]
+			id: "249CFC4219E590E5"
+			rewards: [{
+				count: 5
+				id: "1F089CDD411E7807"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Reaparación"
+			tasks: [{
+				advancement: "dimasic_server:nagaresp"
+				criterion: ""
+				id: "4443B8B332438AA1"
+				type: "advancement"
+			}]
+			title: "Desafio: &eReaparece al Naga&r"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"Al matar al &eLich&r, aparecerá un &eMonumento de Reaparición&r. Puedes activar el bloque para reaparecer al jefe colocando &eBloques de Oro&r en un círculo alrededor del monumento como se muestra a continuación:"
+				""
+				"{image:cte2:textures/Lich_respawn.png width:100 height:100 align:center}"
+				""
+				"Luego, en el propio monumento, coloca un &eCabeza de esqueleto Wither&r mirando al &eNorte&r. &c¡DEBE mirar al Norte!&r"
+			]
+			id: "478246DF0A50447C"
+			rewards: [{
+				count: 5
+				id: "53945B5AF1249FE5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Reaparación"
+			tasks: [{
+				advancement: "dimasic_server:lichresp"
+				criterion: ""
+				id: "46647FC4FDDBF7CE"
+				type: "advancement"
+			}]
+			title: "Desafio: &eReaparece al Litch&r"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BB55F41502BE69C"]
+			description: [
+				"Al matar al &eUr-Ghast&r, aparecerá un &eMonumento de reaparición&r. Puedes activar el bloque para reaparecer al jefe colocando &eObsidiana llorosa&r en un círculo alrededor del monumento de esta manera:"
+				""
+				"{image:cte2:textures/Ur-Ghast_Respawn.png width:100 height:100 align:center}"
+				""
+				"Luego, en el propio monumento, coloca una &eCabeza de esqueleto brillante&r mirando al &eNorte&r. &c¡DEBE mirar al Norte!&r"
+			]
+			id: "52FABBC48E005524"
+			rewards: [{
+				count: 5
+				id: "1FED6032BF28DDCD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Reaparición"
+			tasks: [{
+				advancement: "dimasic_server:urghastresp"
+				criterion: ""
+				id: "16328367B255603E"
+				type: "advancement"
+			}]
+			title: "Desafío: &eReaparece al Ur-Ghast&r"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E2D94E70E2A1134"]
+			description: [
+				"Al matar a la &e«Reina de las Nieves»&r, aparecerá un &e«Monumento de Reaparición»&r. Puedes activar el bloque para hacer resurgir al jefe colocando &eBloques de Lapislázuli&r en un círculo alrededor del monumento de la siguiente manera:"
+				""
+				"{image:cte2:textures/Snow-Queen_Respawn.png width:100 height:100 align:center}"
+				""
+				"Luego, en el propio monumento, coloca una &eCabeza de esqueleto wither&r mirando al &eNorte&r. &c¡DEBE mirar al Norte!&r"
+			]
+			id: "15CD2A688D39C87D"
+			rewards: [{
+				count: 5
+				id: "3467E2DEDB8FA565"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Reaparación"
+			tasks: [{
+				advancement: "dimasic_server:snawqueenresp"
+				criterion: ""
+				id: "4F68D5C6E346A550"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18C4B8D73A50CFAC"]
+			description: [
+				"Al matar al &eHydra&r, aparecerá un &eMonumento de Reaparición&r. Puedes activar el bloque para respawnear al jefe colocando &eEscombros ancestrales&r en un círculo alrededor del monumento de esta manera:"
+				""
+				"{image:cte2:textures/Hydra_Respawn.png width:100 height:100 align:center}"
+				""
+				"Luego, en el propio monumento, coloca una &eCabeza de esqueleto wither&r mirando al &eNorte&r. &c¡DEBE mirar al Norte!&r"
+			]
+			id: "1DD47026109BE225"
+			rewards: [{
+				count: 5
+				id: "6A599A8C876376B3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Reaparación"
+			tasks: [{
+				advancement: "dimasic_server:hydraresp"
+				criterion: ""
+				id: "5757A2AFA61E5A7F"
+				type: "advancement"
+			}]
+			title: "Desafio: &eReaparece a la Hydra&r"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5BB55F41502BE69C"
+				"1E2D94E70E2A1134"
+				"18C4B8D73A50CFAC"
+				"1F3C2718AE550D5C"
+				"09AFF8CC33BD244B"
+			]
+			description: ["Derrota a todos los jefes del &eBosque del Crepúsculo&r en el Epílogo para completar este logro. ¡Lúcelo con tu nuevo sombrero!"]
+			hide_dependency_lines: true
+			icon: "simplehats:pog"
+			id: "481C3C4D8D5AF5B8"
+			rewards: [
+				{
+					id: "6350309B873FAF80"
+					item: "simplehats:pog"
+					type: "item"
+				}
+				{
+					id: "675B5B35C383CF3D"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:passive"
+					id: "3C311586BF920909"
+					title: "4 Passive Points"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Logro"
+			tasks: [{
+				id: "4405B159442E256A"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Derrota todos los Jefes del Bosque de Crepúsculo!"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: ["Enclavada entre las colinas y abetos del &eBosque nevado&r, la &eCueva del Yeti&r aparece como una colina de forma cuadrada. Cuatro entradas permiten acceder a su interior cubierto de hielo, donde el hielo compacto cuelga de estalactitas y cubre el suelo. Muchos feroces &eYetis&r tienen su hogar en estas gélidas cuevas, dominadas por un &eYeti Alpha&r."]
+			id: "4B93763BFB5F5E0D"
+			rewards: [
+				{
+					count: 3
+					id: "1F78FFBE5A9A85B2"
+					item: "mmorpg:material/fishing/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56F92CFDECE8EB68"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epílogo"
+			tasks: [{
+				icon: "blue_skies:snowcap_mushroom_block"
+				id: "0A566E2109FCE4C5"
+				structure: "twilightforest:yeti_cave"
+				title: "Encuentra una Cueva del Yeti"
+				type: "structure"
+			}]
+			title: "Una fría y humilde morada"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"&o¿Encontrar ciertas estructuras y matar jefes? Parece bastante fácil... Sacas tu brújula de explorador y... espera, ¿qué? ¿No funciona?&r"
+				""
+				"En el Bosque del Crepúsculo, tendrás que confiar en tus habilidades de navegación. "
+			]
+			icon: "twilightforest:magic_map"
+			id: "5081032C6E395EA9"
+			rewards: [{
+				id: "0AE3865B01EA1ACD"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			subtitle: "Epílogo"
+			tasks: [{
+				id: "2BF7F6856AC56540"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Viajes nómadas"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Lv. 90"]
+	title: "Epílogo"
+}
